@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     
-      <div className=" w-[100vw] h-auto my-[2rem]" >
+      <div id="home" className=" w-[100vw] h-auto my-[2rem]" >
         <div className=" w-10/12 mx-auto bg-[url('/header_img.png')] bg-cover  bg-no-repeat h-[80vh] rounded-xl shadow-xl px-[3rem] py-[3rem] ">
           <div id="header-content" className=" w-full text-white space-y-4 md:w-full lg:w-6/12 ">
             <h2 className=" font-heading text-[1.5rem] md:text-[3.5rem]">Order your best food here </h2>

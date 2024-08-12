@@ -41,7 +41,7 @@ toast.success("Logged Out")
           <li onClick={() => setMenu('home')}
             className={`${menu === 'home' ? 'active' : ''} `}
           >
-            <Link to="/" >HOME</Link>
+            <Link to="/" onClick={() => moveDown("home")} >HOME</Link>
           </li>
 
           <li onClick={() => setMenu('menu')}
